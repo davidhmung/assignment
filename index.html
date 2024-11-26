@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+          <a  class="navbar-brand justify-content-center d-flex fw-bold text-white" style="width: 30%; font-size: 25px;" href="http://127.0.0.1:5500/index.html?#">WEAPON</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  justify-content-end " style="width: 60%; ">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="http://127.0.0.1:5500/about%20us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Shopping Cart</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Armor
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Unifrom</a></li>
+                  <li><a class="dropdown-item" href="#">Grenade</a></li>
+                  <li><a class="dropdown-item" href="#">Ammo</a></li>
+                </ul>
+              </li>
+            
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+            <a href="http://127.0.0.1:5500/login.html?#">
+              <button class="btn btn-primary ms-5">Login</button>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Home section start -->
+
+      <section id="home" class="mt-5">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imgs/img1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Barrett Mk22 MRAD Barrett</h5>
+                      <p>The MK 22™ defines a new class of long-range rifles by providing
+                        even greater capability within the MRAD rifle platform. </p>
+                      <a href="http://127.0.0.1:5500/login.html?#">
+                        <span class="btn btn-outline-primary">Add to Cart</span>
+
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/img19.jpg" class="d-block w-100" style="height: 70vh;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>THE HK416</h5>
+                      <p>HK416 is a high-performance-optimised assault rifle. The weapon uses 5.56mm ammunition and can be fired effectively up to 600m.</p>
+                      <a href="http://127.0.0.1:5500/login.html?#">
+                        <span class="btn btn-outline-primary">Add to Cart</span>
+
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/img17.jpeg" class="d-block w-100" style="height: 70vh;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>THE AK-74</h5>
+                      <p>The letters AK stand for Avtomat Kalashnikova, which is Russian for Mikhail Kalashnikov's Automatic Rifle. The AK-74 is a later version of the AK-47 that has a few new features. The most important of these is that it fires a smaller cartridge, the 5.45x39.</p>
+                      <a href="http://127.0.0.1:5500/login.html?#">
+                        <span class="btn btn-outline-primary">Add to Cart</span>
+
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </section>
+      <!-- <marquee behavior="" direction="left" class="mt-5" style="height: 50px; font-size: 30px; font-style: italic;">Thank you for Shopping,Have a great day.</marquee> -->
+      <section id="second" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- <a href="#">  -->
+                    <div class=" col-lg-6 col-12 text-white ">
+                        <div class="p-3 mt-3" id="B1">
+                            <h3>AUTOMATIC <br>STORE</h3>
+                            <p>The action of an automatic firearm is capable of harvesting the excess 
+                              energy released from a previous discharge to feed a new ammunition 
+                              round into the chamber, and then igniting the propellant and discharging 
+                              the projectile (either bullet, shot, or slug) by delivering a hammer or striker 
+                              impact on the primer.</p>
+                        </div>
+                    </div>
+                <!-- </a>
+                <a href="#"> -->
+                    <div  class="  col-lg-6 col-12 text-white">
+                        <div class="p-3 mt-3" id="B2">
+                            <h3>Handguns <br>STORE</h3>
+                            <p>A handgun is a firearm designed to be usable with only one hand.[1] It
+                              is distinguished from a long barreled gun (i.e., carbine, rifle, shotgun, 
+                             submachine gun, or machine gun) which needs to be held by both hands
+                              and braced against the shoulder. Handguns have shorter effective
+                             ranges compared to long guns, and are much harder to shoot accurately.</p>    
+                        </div>
+                    </div>
+                <!-- </a>
+                <a href="#"> -->
+                    <div class=" col-lg-6 col-12 text-white ">
+                        <div class="p-3 mt-3" id="B3">
+                            <h3>LONG GUNS <br>STORE</h3>
+                            <p>generally designed to be held by both hands and
+                              braced against the shoulder,</p>    
+                        </div>
+                    </div>
+                <!-- </a>
+                <a href="#"> -->
+                    <div  class="  col-lg-6 col-12 text-white ">
+                        <div class="p-3 mt-3" id="B4">
+                            <h3>KNIFE <br>STORE</h3>
+                            <p>A knife is a tool or weapon with a cutting edge or blade, usually attached
+                              to a handle or hilt. </p>    
+                        </div>
+                    </div>
+                <!-- </a> -->
+
+             
+            </div>
+        </div>
+      </section>
+      <section id="cards" class="mt-5 mb-5">
+        <div class="container">
+            <h3>FEATURED PRODUCTS</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mb-3">
+                    <div class="card">
+                        <img class="w-100" src="imgs/img9.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>COMBAT KNIFE</h4>
+                        <p>a fighting knife designed for military use 
+                          and primarily intended for hand-to-hand 
+                          or close combat fighting.</p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-3">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/15.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>PISTOL (HANDGUN)</h4>
+                        <p>A pistol is a type of handgun, 
+                          characterised by a barrel 
+                          with an integral chamber. </p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                   
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-3">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/img8.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>GRENADE</h4>
+                        <p>A grenade is an explosive weapon 
+                          typically thrown by hand.
+                          (also called hand grenade)</p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/img3.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>HK416(AUTO/SINGLE)</h4>
+                        <p>Created by Heckler & Koch,the 
+                          HK416 is a high-performance-optimised 
+                          assault rifle. </p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-3">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/img11.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>PISTOL(HANDGUN)</h4>
+                        <p>A pistol is a type of handgun, 
+                          characterised by a barrel 
+                          with an integral chamber. </p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                   
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-3">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/AdobeStock_976060736_Preview.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>UMP <span class="fs-5">(Uridine monophosphate)</span></h4>
+                        <p>The UMP is a blowback-operated, 
+                          magazine-fed submachine gun 
+                          that fires from a closed bolt.</p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-3">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/img12.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>COMBAT KNIFE</h4>
+                        <p>a fighting knife designed for military use 
+                          and primarily intended for hand-to-hand 
+                          or close combat fighting.</p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-3">
+                    <div class="card">
+                        <img class="w-100" style="height: 200px;" src="imgs/img7.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>$298.96</h4>
+                        <h4>PISTOL(HANDGUN)</h4>
+                        <p>A pistol is a type of handgun, 
+                          characterised by a barrel 
+                          with an integral chamber. </p>
+                    </div>
+                    <a href="http://127.0.0.1:5500/login.html?#">
+                      <button id="btn1" class="p-2">Add to Cart</button>
+                    </a>
+                    
+                </div>
+    
+            </div>
+
+        </div>
+      </section>
+      <MARquee scrollamount="15" class="bg-black text-white align-items-center d-flex fs-3" style="height: 50px;">HAVE A GOOD DAY</MARquee>
+      <footer class="text-white mt-5 p-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="text">
+                <h4 class="pb-4">INFORMATION</h4>
+                <ul class="list-unstyled">
+                  <a class="nav-link" href="">
+                    <li>About</li>
+                    <li>DELIVERY</li>
+                    <li>PRIVACY POLICY</li>
+                    <li>TREMS AND CONDITIONS</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="text">
+                <h4 class="pb-4">CUSTOMER SERVICE</h4>
+                <ul class="list-unstyled">
+                  <a class="nav-link" href="">
+                    <li>CONTACT US</li>
+                    <li>RETURN</li>
+                    <li>SITE MAPS</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="text">
+                <h4 class="pb-4">EXTRA</h4>
+                <ul class="list-unstyled">
+                 <a class="nav-link" href="">
+                  <li>BRANDS</li>
+                  <li>GIFT VOUCHERS</li>
+                  <li>AFFILIATES</li>
+                  <li>SPECIALS</li>
+                 </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="text">
+                <h4 class="pb-4">MY ACCOUNT</h4>
+                <ul class="list-unstyled">
+                  <a class="nav-link" href="">
+                    <li>MY ACCOUNT</li>
+                    <li>ORDER HISTORY</li>
+                    <li>WISH LIST</li>
+                    <li>NEWLETTERS</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div id="social">
+              <div class="text-center d-flex justify-content-center">
+                <a class="nav-link" href="">
+                  <i class="fa-brands fa-facebook fs-2"></i>
+                </a>
+                <a class="nav-link" href="">
+                  <i class="fa-brands fa-x-twitter fs-2"></i>
+                </a>
+                <a class="nav-link" href="">
+                  <i class="fa-brands fa-instagram fs-2"></i>
+                </a><br>
+                
+              </div>
+              <p class="text-center mt-3"> ©2021 Sephora USA,Inc.All right reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

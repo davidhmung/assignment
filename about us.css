@@ -1,0 +1,13 @@
+#backimg{
+    background-image: url(imgs/img18.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  
+    background-position: center;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    transition: 30s;
+
+}

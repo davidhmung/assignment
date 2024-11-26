@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Bitter", serif;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    transition: 30s;
+   
+}
+
+:root{
+    --theme: rgb(95, 93, 93);
+    --coffee:rgba(235, 8, 8, 0.152);
+}
+nav{
+    background-color: var(--theme);
+}
+/* second section start  */
+#second #B1,#B2,#B3,#B4{
+    height: 200px;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 7px;
+}
+#second  {
+    transition: transform 0.3s;
+}
+#second .card:hover{
+    transform: scale(1.05);
+}
+#second #B1{
+    background-image: url(imgS/img6.jpeg);
+}
+#second #B2{
+    background-image: url(imgs/AdobeStock_868068259_Preview.jpeg);
+}
+#second #B3 {
+    background-image: url(imgs/AdobeStock_957733600_Preview.jpeg);
+}
+#second #B4 {
+    background-image: url(imgs/AdobeStock_986191436_Preview.jpeg);
+}
+ /* Card section start */
+
+ #cards .card{
+    transition: transform 0.3s;
+  }
+  
+  #cards .card:hover{
+    transform: scale(1.05);
+  }
+
+ #cards #btn1{
+    color:white;
+    background-color: rgb(66, 13, 13);
+   
+ }
+ /* Footer section start */
+ footer{
+    background-color:rgb(44, 41, 41) ;
+ }
+ footer li:hover{
+    text-decoration: underline;
+ }
